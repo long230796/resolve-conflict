@@ -6,3 +6,5 @@ function Mouse(name, color) {
 Mouse.prototype.run = function() {
 	console.log("running...");
 }
+
+module.exports = Mouse;
